@@ -18,7 +18,7 @@ Which will allow shorthand and more flexible syntax as following:
 ```javascript
 (function (arg0, arg2){})
 (
-    arg0: 1, //ok passing first argument with value of 1
+    arg0: 1, //ok passing first argument with value of 1 because `arg0` identifier matches `arg0` parameter
     2, //ok passing the next after the last passed argument (second) with value of 2
 )
 ```
