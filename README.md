@@ -22,3 +22,16 @@ Which will allow shorthand and more flexible syntax as following:
     2, //ok passing the next after the last passed argument (second) with value of 2
 )
 ```
+
+Another more complex example:
+
+```javascript
+let arg0 = 2
+(function (arg0, arg2){})
+(
+    arg0, //ok passing first argument with value of 1
+    2, //ok passing the next after the last passed argument (second) with value of 2
+)
+```
+
+There should be added text that will assign to `arg0` if it's part of the function parameters but if not pass it as the next ordered argument.
