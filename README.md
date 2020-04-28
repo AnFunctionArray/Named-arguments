@@ -29,7 +29,7 @@ Another more complex example:
 let arg0 = 2
 (function (arg0, arg2){})
 (
-    arg0, //ok passing first argument with value of 1 because `arg0` identifier matches `arg0` parameter
+    arg0, //ok passing first argument with value of 2 because `arg0` identifier matches `arg0` parameter
     2, //ok passing the next after the last passed argument (second) with value of 2
 )
 ```
